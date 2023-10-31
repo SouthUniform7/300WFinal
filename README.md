@@ -4,10 +4,10 @@ AND **EVERY TIME YOU TURN ON YOUR PC DO “git pull” BEFORE YOU START WORKING*
 **Everything you code will be messed up if you code on an out of date version of the project,** so do “git pull” before you code anything.
 
 To clone the git repository, you’ll need to use the SSH link in the github repository
-![ssh in github instead of https](https://drive.google.com/file/d/1js0TsxfZkBTfeX5lInMAypd3yMxSNECW/view?usp=drive_link)
+![ssh in github instead of https](https://drive.google.com/file/d/1js0TsxfZkBTfeX5lInMAypd3yMxSNECW/view?usp=sharing)
 
 We use sparse-checkout, it's a way of setting what folder in the repository we want to pull
-![sparse checkout example commands](https://drive.google.com/file/d/14XjXNz7pp6gJ0o5T-8DFWhoPCUBmXg9v/view?usp=drive_link)
+![sparse checkout example commands](https://drive.google.com/file/d/14XjXNz7pp6gJ0o5T-8DFWhoPCUBmXg9v/view?usp=sharing)
 
 Then after this is done, which it should be by the time you guys see the servers, just do a regular “git pull” every time you want the server to pull down the code in the github. 
 
