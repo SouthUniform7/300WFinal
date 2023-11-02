@@ -1,5 +1,5 @@
 import React from 'react';
-import IndividualTableRow from './IndividualTableRow';
+import RawTable from './RawTable';
 
 function Table({ data }) {
   return (
