@@ -17,7 +17,7 @@ const getRootResponse = (req, res) => {
 // Retrieve all bus data
 const getAllBuses = async (req, res) => {
     try {
-        const buses = await knex.select('*').from('BUS');
+        const buses = await knex.select('*').from('bus');
         res.json(buses);
     } catch (error) {
         res.status(500).json({ message: 'Error fetching bus data', error: error.message });
@@ -28,7 +28,7 @@ const getAllBuses = async (req, res) => {
 const getBusById = async (req, res) => {
     try {
         const busID = req.query.busID; // assuming you're passing busID as a query param
-        const bus = await knex('BUS').where('busID', busID);
+        const bus = await knex('bus').where('busID', busID);
         res.json(bus);
     } catch (error) {
         res.status(500).json({ message: 'Error fetching bus data', error: error.message });
